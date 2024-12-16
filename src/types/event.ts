@@ -4,8 +4,8 @@ export interface Event {
   name: string,
   startTime: string,
   endTime: string,
-  description: string,
-  tag: string
+  description?: string,
+  tag?: string
 }
 
 export interface tagPickerInterface {

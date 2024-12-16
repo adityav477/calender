@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import Day from './Day'
-import EventModal from "./EventModal"
-import { Event } from '@/types/event'
+import { useState, useEffect } from 'react';
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Day from './Day';
+import EventModal from "./EventModal";
+import { Event } from '@/types/event';
 
 const DAYS_OF_WEEK = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 

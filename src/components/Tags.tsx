@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import IndividualTags from './IndividualTags'
+import IndividualTags from './IndividualTags';
 import { Plus } from 'lucide-react';
 import TagPicker from './TagPicker';
 

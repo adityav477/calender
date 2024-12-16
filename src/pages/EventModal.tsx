@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Event } from '@/types/event'
-import Tags from '@/components/Tags'
+import { useState, useEffect } from 'react'
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Event } from '@/types/event';
+import Tags from '../components/Tags';
 
 interface EventModalProps {
   isOpen: boolean
@@ -29,7 +29,7 @@ function EventModal({
   const [name, setName] = useState('')
   const [startTime, setStartTime] = useState('')
   const [endTime, setEndTime] = useState('')
-  const [tagState, setTag] = useState("");
+  const [tagState, setTag] = useState('');
   const [description, setDescription] = useState('')
 
   useEffect(() => {
@@ -55,7 +55,7 @@ function EventModal({
       startTime,
       endTime,
       description,
-      tag: tagState
+      tag: tagState || ""
     }
     onAddEvent(newEvent)
     onClose()

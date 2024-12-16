@@ -1,5 +1,4 @@
-import React from 'react'
-import { Event } from '@/types/event'
+import { Event } from '@/types/event';
 
 interface DayProps {
   date: Date | null
