@@ -85,7 +85,7 @@ The **Dynamic Event Calendar Application** is a React-based project designed to 
 ## Deployment
 
 The application is deployed and accessible at:
-[**Deployed Application Link**](<deployment-url>)
+[**Deployed Application Link**](<https://calender-nu-gilt.vercel.app/>)
 
 The source code is available at:
 [**GitHub Repository**](<https://github.com/adityav477/calender>)
@@ -110,6 +110,10 @@ The source code is available at:
 - Implement weekly and daily views for finer granularity.
 
 ## Screenshots
+
+![Screenshot1](<https://github.com/adityav477/calender/blob/master/public/screenshots/Screenshot%202024-12-16%20182709.png?raw=true>)
+![ScreenShot2](<https://github.com/adityav477/calender/blob/master/public/screenshots/Screenshot%202024-12-16%20183719.png?raw=true>)
+![Screenshot3](<https://github.com/adityav477/calender/blob/master/public/screenshots/Screenshot%202024-12-16%20183826.png?raw=true>)
 
 ## License
 
